@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <title>| Agenţia Naţională pentru Curriculum şi Evaluare</title>
 </head>
-<frameset rows="100px, *, 222px" frameborder="1">
+<frameset rows="100px, *, 222px" frameborder="0">
     <frame src="frames/header-frame.html" name="header" noresize>
-    <frameset cols="100px, *, 100px">
+    <frameset cols="*, 180px, 20px, 780px, 20px, 180px, *">
+        <frame>
         <frame src="frames/navigation-frame.html" name="sidebar" noresize>
+        <frame>
         <frame src="frames/content-frame.html" name="content" noresize>
-        <frame src="frames/ad-frame.html" name="ad" noresize>
+        <frame>
+        <frame src="frames/ad-frame.html" name="ad" scrolling="no" noresize>
+        <frame>
     </frameset>
     <frame src="frames/footer-frame.html" name="footer" noresize>
 </frameset>
